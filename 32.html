@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Moviendo el fondo</title>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+      }
+      p {
+        color: red;
+        font-size: 100px;
+        line-height: 400px;
+        text-shadow: 1px 1px 1px black;
+        font-weight: bold;
+        text-align: center;
+        width: 800px;
+        height: 400px;
+        background-color: #ccc;
+        margin-bottom: 50px;
+        background-image: url(https://picsum.photos/200/200);
+      }
+
+      .uno {
+        background-repeat: repeat;
+      }
+      .dos {
+        background-repeat: no-repeat;
+        background-position: right top;
+      }
+      .tres {
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .cuatro {
+        background-repeat: no-repeat;
+        background-position: left bottom;
+      }
+      .cinco {
+        background-repeat: no-repeat;
+        background-position: 40px 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Moviendo el fondo</h1>
+    <p class="uno">
+      Lorem ipsum
+    </p>
+    <p class="dos">
+      Lorem ipsum
+    </p>
+    <p class="tres">
+      Lorem ipsum
+    </p>
+    <p class="cuatro">
+      Lorem ipsum
+    </p>
+    <p class="cinco">
+      Lorem ipsum
+    </p>
+  </body>
+</html>

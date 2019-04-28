@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Botones redondeados</title>
+    <style>
+      button {
+        border: 1px solid transparent;
+        /* RADIO */
+        border-radius: 4px;
+        padding: 5px;
+        color: white;
+        box-shadow: 1px 1px 5px #aaa;
+      }
+
+      .principal {
+        background-color: #5cb85c;
+        border-color: #4cae4c;
+      }
+      .secundario {
+        background-color: #337ab7;
+        border-color: #2e6da4;
+      }
+      .eliminar {
+        background-color: #d9534f;
+        border-color: #d43f3a;
+      }
+
+      /* Para que parezcan botones */
+      .principal:active {
+        background-color: #82bb82;
+      }
+      .secundario:active {
+        background-color: #5088b9;
+      }
+      .eliminar:active {
+        background-color: #dd706c;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Botones redondos</h1>
+    <button class="principal">Aceptar</button>
+    <button class="secundario">Informacion</button>
+    <button class="eliminar">Eliminar</button>
+  </body>
+</html>
